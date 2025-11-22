@@ -20,6 +20,24 @@ Comprehensive technical documentation for hashcat, the world's fastest password 
   - Configurable hash modes, wordlists, and rules
   - Session management with checkpoint/restore
   - Post-attack analysis and reporting
+ 
+  - - **hybrid_attack.sh** - Hybrid attack automation (wordlist + mask combinations)
+  - Configurable attack modes (wordlist-mask or mask-wordlist)
+  - Supports custom masks and patterns
+  - Interactive configuration and confirmation
+  - Comprehensive result analysis
+
+- **distributed_attack.sh** - Multi-GPU distributed attack orchestration
+  - Automatic workload distribution across GPUs
+  - Parallel processing with synchronized output
+  - Batch size calculation and optimization
+  - Results aggregation and deduplication
+
+- **forensic_analysis.sh** - Forensic-grade password recovery with chain of custody
+  - Maintains detailed evidence logging
+  - Chain of custody documentation
+  - Timestamped analysis phases
+  - Forensically sound output management
 
 - **Hashcat-in-SOC-vs-Penetration-Testing_Operational.md** - Strategic deployment comparison
   - SOC defensive operations (incident response, forensics)
